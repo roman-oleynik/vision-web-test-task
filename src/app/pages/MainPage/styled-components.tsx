@@ -23,7 +23,7 @@ export const Text = styled.p`
   text-align: center;
 `;
 
-export const Button = styled(Link)`
+export const NavButton = styled(Link)`
   height: 30px;
   width: 100px;
   background: tomato;

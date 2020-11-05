@@ -7,7 +7,9 @@ import { booksModel } from '../../model';
 import { Book, PageChangeEvent, State } from 'app/types';
 import { BooksRenderer } from '../../components/BooksRenderer';
 import { useDispatch, useSelector } from 'react-redux';
-import { setBooks, setCurPage, setPagesAmount } from 'app/actions';
+import { setBooks } from '../../reducers/booksReducer';
+import { setCurPage } from '../../reducers/curPageReducer';
+import { setPagesAmount } from '../../reducers/pagesAmountReducer';
 
 export function BooksPage() {
     const dispatch = useDispatch();
