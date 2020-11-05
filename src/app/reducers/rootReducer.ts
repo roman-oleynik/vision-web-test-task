@@ -1,6 +1,11 @@
-import { Action, User } from '../types';
+import { State } from '../types';
 import { combineReducers } from "redux";
+import { booksReducer } from './booksReducer';
+import { pagesAmountReducer } from './pagesAmountReducer';
+import { curPageReducer } from './curPageReducer';
 
-export const rootReducer = combineReducers({
-    loggedUser: (state: User | null = { id: "1" }, action: Action) => state
+export const rootReducer = combineReducers<State>({
+    books: booksReducer,
+    pagesAmount: pagesAmountReducer,
+    curPage: curPageReducer,
 });
