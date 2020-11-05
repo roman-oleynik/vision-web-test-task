@@ -15,7 +15,8 @@ export function MainPage() {
     return (
         <Container>
             <Title>Main page</Title>
-            <Text>Glad to see you, dear user!</Text>
+            <Text>Glad to see you, dear user! Propose you to look at books</Text>
+            <Button to="/books">Watch</Button>
         </Container>
     );
 }

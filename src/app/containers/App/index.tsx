@@ -2,11 +2,10 @@ import React from 'react';
 import { MainPage } from 'app/pages/MainPage';
 import { Route } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
-import { LoginPage } from 'app/pages/LoginPage';
-import { BooksPage } from 'app/pages/BooksPage';
-import { ProfilePage } from 'app/pages/ProfilePage';
-import { Navbar } from 'app/components/Navbar';
-
+import { LoginPage } from '../../pages/LoginPage';
+import { BooksPage } from '../../pages/BooksPage';
+import { ProfilePage } from '../../pages/ProfilePage';
+import { Navbar } from '../../components/Navbar';
 
 
 function App() {
