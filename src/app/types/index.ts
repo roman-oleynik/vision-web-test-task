@@ -4,6 +4,7 @@ export type State = {
 
 export type User = {
     id: string
+    name: string
 };
 
 export type Action = {
