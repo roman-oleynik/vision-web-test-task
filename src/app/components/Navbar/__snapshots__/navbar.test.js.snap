@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should match snapshot 1`] = `
+<nav
+  className="sc-bdfBwQ byPhtD"
+>
+  <h1
+    className="sc-dlfnbm kdlcjy"
+  >
+    Bamazon
+  </h1>
+  <div
+    className="sc-gsTCUz juqLjK"
+  >
+    <a
+      aria-current="page"
+      className="sc-hKgILt bTFXEO active"
+      href="/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      Home
+    </a>
+    <a
+      aria-current={null}
+      className="sc-hKgILt bTFXEO"
+      href="/books"
+      onClick={[Function]}
+    >
+      Books
+    </a>
+    <a
+      aria-current={null}
+      className="sc-hKgILt bTFXEO"
+      href="/profile"
+      onClick={[Function]}
+    >
+      Profile
+    </a>
+  </div>
+</nav>
+`;
